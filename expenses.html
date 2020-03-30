@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content='Expense tracker app wireframes' />
+    <title>Expense Tracker App - Expenses</title>
+</head>
+
+<body>
+    <header>
+        <div class="header-name">
+            Expense Tracker App
+        </div>
+        <nav>
+            <a href="./index.html">Home</a>
+            <a href="./login.html">Login</a>
+            <a href="./registration.html">Register</a>
+            <a href="./profile.html">Profile</a>
+        </nav>
+    </header>
+    <main>
+        <section class="expenses__new-expense">
+            <form class="new-expense-form">
+                <label for="expense">Expense Cost: </label>
+                <input id="expense" name="expense" type="text" placeholder="3.95"/>
+                <label for="receipt">Receipt Image</label>
+                <input id="receipt" name="receipt" type="text"/>
+                <label for="description">Description: </label>
+                <input id="description" name="description" type="text" placeholder="What was this expense for?"/>
+                <button type="submit">Add Expense</button>
+            </form>
+        </section>
+
+        <section class="expenses__history">
+            <table>
+                <tr>
+                    <th>Date</th>
+                    <th>Expense</th>
+                    <th>Receipt</th>
+                    <th>Description</th>
+                </tr>
+                <tr>
+                    <td>03/30/2020</td>
+                    <td>3.92</td>
+                    <td>N/A</td>
+                    <td>Coffee</td>
+                </tr>
+                <tr>
+                    <td>03/30/2020</td>
+                    <td>15.84</td>
+                    <td>N/A</td>
+                    <td>Bagels for office</td>
+                </tr>
+                <tr>
+                    <td>03/30/2020</td>
+                    <td>31.92</td>
+                    <td>N/A</td>
+                    <td>Groceries</td>
+                </tr>
+                <tr>
+                    <td>03/30/2020</td>
+                    <td>13.92</td>
+                    <td>N/A</td>
+                    <td>Lunch</td>
+                </tr>
+            </table>
+        </section>
+    </main>
+</body>
+
+</html>
